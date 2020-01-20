@@ -2,7 +2,7 @@
 
 
     function connect($servername,$username,$password,$databasename){
-        
+            
         $connection=new mysqli($servername,$username,$password,$databasename);
 
         if(! $connection -> connect_error){
